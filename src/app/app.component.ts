@@ -14,5 +14,45 @@ export class AppComponent {
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
-  constructor() {}
+  constructor() {
+//     "cordova-plugin-firebase-analytics": "^5.0.0",
+//     "cordova-plugin-firebase-config": "^5.0.0",
+      
+//       "cordova": {
+//         "cordova-plugin-firebase-config": {
+//           "ANDROID_FIREBASE_CONFIG_VERSION": "20.0.+"
+//         },
+//       }
+//     try {
+//         window.cordova.plugins.firebase.config.fetch(1).then((isfetch: any) => {
+//             window.cordova.plugins.firebase.config.fetchAndActivate().then((res: any) => {
+//                 window.cordova.plugins.firebase.config.getString('Token').then((urlRes: any) => {
+//                   this.service.allVersionDetails = JSON.parse(urlRes);
+
+//                   this.service.getAllVideos().then(
+//                     (res) => {
+//                       this.service.videoList = res['result'];
+//                     },
+//                     (err) => { }
+//                   );
+
+//                   this.appVersion.getVersionNumber().then(
+//                     (versionNumber) => {
+//                       this.service.bucketUrl = this.service.allVersionDetails['newBucketUrl'];
+//                       this.service.statusMakerBucketUrl = this.service.allVersionDetails['statusMakerBucketUrl'];
+
+//                       if (this.service.allVersionDetails['version'] != versionNumber) {
+//                         this.updatePopup();
+//                       }
+//                     },
+//                     (err) => { }
+//                   );
+//                 }).catch((error: any) => console.error(error));
+//             });
+//         }).catch((err) => {
+//           console.log('eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee' + err);
+//         });
+//     } catch (ex) { }
+//   }
+  }
 }
